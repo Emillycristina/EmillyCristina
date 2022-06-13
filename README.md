@@ -4,6 +4,7 @@
   - 📫 Contate-me : emilly.c.f@hotmail.com
   - 😄 Pronouns: Ela/dela
 
+<a href="https://picasion.com/"><img src="https://i.picasion.com/pic92/380f5f0a6e3a15eae54f5e46b7c93cb5.gif" width="300" height="300" border="0" alt="https://picasion.com/" /></a><br /><a href="https://picasion.com/">https://picasion.com/</a>
 
 <div>
   <a href="https://github.com/emillycristina">
