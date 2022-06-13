@@ -1,12 +1,11 @@
 nome : jogo da cobra
 
-# Controlador do tempo que será feito a atualização dos arquivos.
 em :
   cronograma :
       # Será atualizado a cada 5 horas.
 -cron     : " 0 */5 * * * "
 
-# Permite executar na lista de ações (utilizado para testes de compilação).
+
   workflow_dispatch :
 
 #Regras _
@@ -15,10 +14,9 @@ empregos :
     run-on : ubuntu-latest
     passos :
 
-    # Verifica o repositório em $GITHUB_WORKSHOP, para que seu trabalho possa acessá-lo
       - usa : actions/checkout@v2
 
-    # Repositório que será utilizado para gerar os arquivos.
+   
       - usa : Platane/snk@master
         id : cobra-gif
         com :
@@ -28,7 +26,7 @@ empregos :
 
       - executar : git status
 
-      # Para como atualizações.
+     
       - nome : Empurre alterações
         usa : ad-m/github-push-action@master
         com :
@@ -38,7 +36,7 @@ empregos :
 
       - usa : crazy-max/ghaction-github-pages@v2.1.3
         com :
-          # a ramificação de saída que mencionamos acima
+         
           target_branch : saída
           build_dir : dist
         ambiente :
