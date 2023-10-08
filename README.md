@@ -1,6 +1,6 @@
 ## Olá, Eu sou a Emilly Cristina!
 
-  - 🌱 Estudando JavaScript
+  - 🌱 Desenvolvedora Front-End.
   - 📫 Contate-me : emilly.c.f@hotmail.com
   - 😄 Pronouns: Ela/dela
 
